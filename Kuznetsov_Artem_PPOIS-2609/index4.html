@@ -64,7 +64,8 @@
             <label for="country" class="field-label">Страна:</label>
             <div class="field-control">
               <select id="country" name="country" class="select-field">
-                <option value="by" selected>Беларусь</option>
+                <option value="" selected>- Выберите страну -</option>
+                <option value="by">Беларусь</option>
                 <option value="ru">Россия</option>
                 <option value="ua">Украина</option>
               </select>
@@ -75,9 +76,13 @@
             <label for="city" class="field-label">Город:</label>
             <div class="field-control">
               <select id="city" name="city" class="select-field">
-                <option value="minsk" selected>Минск</option>
+                <option value="" selected>- Выберите город -</option>
+                <option value="minsk">Минск</option>
                 <option value="brest">Брест</option>
+                <option value="vitebsk">Витебск</option>
+                <option value="gomel">Гомель</option>
                 <option value="grodno">Гродно</option>
+                <option value="mogilev">Могилев</option>
               </select>
               <div class="sub-hint">Город, где Вы учились в школе или вузе:</div>
             </div>
@@ -93,7 +98,9 @@
             <div class="field-control">
               <select id="school" name="school" class="select-field">
                 <option value="" selected>- Выберите школу -</option>
-                <option value="sch1">Школа №1</option>
+                <option value="sch1">Средняя школа №1</option>
+                <option value="gymn1">Гимназия №1</option>
+                <option value="lyceum-bsu">Лицей БГУ</option>
               </select>
             </div>
           </div>
@@ -108,7 +115,12 @@
             <div class="field-control">
               <select id="university" name="university" class="select-field">
                 <option value="" selected>- Выберите ВУЗ -</option>
-                <option value="bsu">БГУ</option>
+                <option value="bsu">Белорусский государственный университет (БГУ)</option>
+                <option value="bntu">Белорусский национальный технический университет (БНТУ)</option>
+                <option value="bsuir">Белорусский государственный университет информатики и радиоэлектроники (БГУИР)</option>
+                <option value="bseu">Белорусский государственный экономический университет (БГЭУ)</option>
+                <option value="bsmu">Белорусский государственный медицинский университет (БГМУ)</option>
+                <option value="bspu">Белорусский государственный педагогический университет им. М. Танка (БГПУ)</option>
               </select>
             </div>
           </div>
