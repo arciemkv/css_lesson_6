@@ -3,9 +3,15 @@
 }
 
 body {
-  margin: 0;
-  padding: 13px 3px 20px 3px;
-  font-family: Verdana, "DejaVu Sans", Tahoma, Arial, sans-serif;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  padding-top: 12px;
+  padding-right: 3px;
+  padding-bottom: 20px;
+  padding-left: 3px;
+  font-family: Tahoma, Arial, sans-serif;
   font-size: 11px;
   line-height: 13px;
   color: #000000;
@@ -21,20 +27,26 @@ body {
 }
 
 .main-title {
-  margin: 0;
-  padding-bottom: 14px;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  padding-bottom: 13px;
   padding-left: 1px;
+  font-family: Verdana, "DejaVu Sans", sans-serif;
   font-size: 15px;
   font-weight: normal;
   line-height: 18px;
   color: #2b3947;
-  border-bottom: 1px solid #eeeeee;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #eeeeee;
 }
 
 .intro-banner {
   display: flex;
   align-items: flex-start;
-  margin-bottom: 15px;
+  margin-bottom: 17px;
 }
 
 .intro-logo {
@@ -46,8 +58,11 @@ body {
 }
 
 .intro-text {
-  margin: 0;
   margin-top: -3px;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  font-family: Verdana, "DejaVu Sans", sans-serif;
   font-size: 11px;
   line-height: 13px;
   color: #000000;
@@ -55,58 +70,76 @@ body {
 }
 
 .reg-form {
-  margin: 0;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 0;
 }
 
 .form-section {
-  margin-bottom: 23px;
+  margin-bottom: 26px;
 }
 
 .section-title {
   display: block;
   width: 100%;
-  margin: 0;
-  margin-bottom: 12px;
-  padding-bottom: 12px;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 13px;
+  margin-left: 0;
+  padding-bottom: 13px;
   padding-left: 1px;
+  font-family: Verdana, "DejaVu Sans", sans-serif;
   font-size: 14px;
   font-weight: bold;
   line-height: 16px;
   color: #55677d;
-  border-bottom: 1px solid #eeeeee;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #eeeeee;
 }
 
 .subsection-block {
-  margin-top: 20px;
+  margin-top: 23px;
 }
 
 .subsection-title {
   display: block;
   width: 100%;
-  margin: 0;
-  margin-bottom: 12px;
-  padding-bottom: 12px;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 13px;
+  margin-left: 0;
+  padding-bottom: 13px;
   padding-left: 1px;
+  font-family: Verdana, "DejaVu Sans", sans-serif;
   font-size: 11px;
   font-weight: bold;
   line-height: 13px;
   color: #55677d;
-  border-bottom: 1px solid #eeeeee;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #eeeeee;
 }
 
 .form-row {
   display: flex;
   align-items: flex-start;
-  margin-bottom: 8.5px;
+  margin-bottom: 9px;
+}
+
+.city-row {
+  margin-bottom: 5px;
 }
 
 .field-label {
-  width: 63px;
+  width: 65px;
   padding-top: 3px;
   padding-right: 9px;
   text-align: right;
+  font-family: Tahoma, Arial, sans-serif;
   color: #666666;
-  font-size: 10.5px;
+  font-size: 11px;
   line-height: 13px;
   flex-shrink: 0;
 }
@@ -120,22 +153,31 @@ body {
 
 .input-text,
 .select-field {
-  width: 128px;
+  width: 150px;
   height: 19px;
-  padding: 1px 2px;
-  font-family: Verdana, "DejaVu Sans", Tahoma, Arial, sans-serif;
+  padding-top: 1px;
+  padding-right: 2px;
+  padding-bottom: 1px;
+  padding-left: 2px;
+  font-family: Tahoma, Arial, sans-serif;
   font-size: 10px;
   color: #000000;
   background-color: #ffffff;
-  border: 1px solid #cccccc;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #cccccc;
 }
 
 .select-field {
-  padding: 0;
+  padding-top: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
 }
 
 .field-hint {
   margin-left: 10px;
+  font-family: Tahoma, Arial, sans-serif;
   font-size: 8.5px;
   line-height: 11px;
   color: #999999;
@@ -143,7 +185,10 @@ body {
 
 .sub-hint {
   width: 100%;
-  margin-top: 6px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 65px;
+  font-family: Tahoma, Arial, sans-serif;
   font-size: 8.5px;
   font-weight: bold;
   line-height: 11px;
@@ -151,7 +196,7 @@ body {
 }
 
 .submit-block {
-  margin-top: 36px;
+  margin-top: 38px;
   margin-left: 28px;
   display: flex;
   flex-direction: column;
@@ -161,19 +206,22 @@ body {
 .submit-btn {
   display: block;
   width: 167px;
-  height: 18px;
+  height: 19px;
   padding-bottom: 1px;
-  font-family: Verdana, "DejaVu Sans", Tahoma, Arial, sans-serif;
+  font-family: Tahoma, Arial, sans-serif;
   font-size: 10px;
   color: #000000;
   background-color: #efefef;
-  border: 1px solid #888888;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #888888;
   cursor: pointer;
 }
 
 .terms-text {
   margin-top: 8px;
   margin-bottom: 0;
+  font-family: Tahoma, Arial, sans-serif;
   font-size: 8.5px;
   line-height: 11px;
   color: #999999;
@@ -186,8 +234,10 @@ body {
 
 @media (max-width: 480px) {
   body {
-    padding: 12px;
+    padding-top: 12px;
+    padding-right: 12px;
     padding-bottom: 20px;
+    padding-left: 12px;
   }
 
   .intro-text {
@@ -197,6 +247,10 @@ body {
   .form-row {
     flex-direction: column;
     margin-bottom: 12px;
+  }
+
+  .city-row {
+    margin-bottom: 6px;
   }
 
   .field-label {
@@ -215,6 +269,11 @@ body {
     width: 100%;
     margin-left: 0;
     margin-top: 4px;
+  }
+
+  .sub-hint {
+    padding-left: 0;
+    margin-bottom: 12px;
   }
 
   .submit-block {
